@@ -1,0 +1,49 @@
+/* SECCIÓN GALERÍA */
+#gallery, #gallery2 {
+    background-color: #282828;
+    color: white;
+    padding: 50px 0;
+}
+
+#gallery h2, #gallery2 h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    justify-items: center; /* Centra las imágenes dentro de cada celda */
+}
+
+.gallery2 {
+    display: flex;  /* Usamos flexbox para eliminar las celdas */
+    justify-content: center; /* Centra las imágenes dentro del contenedor */
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas si es necesario */
+}
+
+.gallery img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover; /* Mantiene la proporción de las imágenes sin distorsionarlas */
+    max-width: 100%; /* Asegura que las imágenes no se estiren más allá de su tamaño original */
+    height: 200px; /* O cualquier valor que desees para el alto de las imágenes */
+}
+.gallery2 img {
+    width: 200px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover; /* Mantiene la proporción de las imágenes sin distorsionarlas */
+    max-width: 100%; /* Asegura que las imágenes no se estiren más allá de su tamaño original */
+    height: 200px; /* O cualquier valor que desees para el alto de las imágenes */
+}
+
+.gallery img:hover, .gallery2 img:hover {
+    transform: scale(1.05);
+}

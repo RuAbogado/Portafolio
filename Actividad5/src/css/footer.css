@@ -1,0 +1,32 @@
+/* PIE DE PÁGINA */
+footer {
+    background-color: #282828;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #e81cff;
+    font-weight: bold;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #e81cff;
+}

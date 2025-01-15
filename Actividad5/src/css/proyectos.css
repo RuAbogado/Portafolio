@@ -1,0 +1,37 @@
+/* SECCIÓN PROYECTOS */
+#projects {
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+table th {
+    background-color: #000000;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff00;
+}
+
+table tr:hover {
+    background-color: #ffffff82;
+    color: rgb(0, 0, 0);
+}

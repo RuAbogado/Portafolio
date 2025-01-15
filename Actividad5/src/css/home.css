@@ -1,0 +1,31 @@
+/* SECCIÓN HOME */
+#home {
+    text-align: center;
+    background-color: #282828;
+    color: white;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+#home .btn {
+    padding: 10px 20px;
+    background-color: #e81cff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home .btn:hover {
+    background-color: #c500d6;
+}

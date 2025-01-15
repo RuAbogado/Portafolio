@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Rubén Gómez Hernández</title>
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/proyectos.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/cardimagen.css">
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <a href="#">Rubén Gómez - Desarrollador Software</a>
+            <ul class="list">
+              <li><a href="#about">Sobre Mi</a></li>
+              <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#gallery">Galeria</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button class="menu">Menu</button>
+          </nav>    
+    </header>
+
+   
+    <section id="home">
+        <h1>¡Bienvenido!</h1>
+        <div class="card2">
+            <div class="tools">
+                <div class="circle">
+                    <span class="red box"></span>
+                </div>
+                <div class="circle">
+                    <span class="yellow box"></span>
+                </div>
+                <div class="circle">
+                    <span class="green box"></span>
+                </div>
+            </div>
+            <div class="card__content">
+                <img src="./img/foto.jpeg" alt="Foto de Rubén" class="profile-img">
+            </div>
+        </div>
+        <p>¡Hola!, mi nombre es Rubén Gómez Hernández, un apasionado de la tecnología y el diseño web.</p>
+    </section>
+    
+
+  <!-- Sección Sobre mí -->
+<section id="about">
+    <div class="parent">
+        <div class="card">
+            <p class="heading">Sobre mí</p>
+            <p>Soy una persona determinada y apasionada por lo que hago. Me caracterizo por ser responsable, aprender rápido y disfrutar compartiendo mis conocimientos para crecer y ayudar a los demás.</p>
+            <p><strong>Habilidades Duras:</strong></p>
+            <ul>
+                <li>Gestión de Bases de Datos</li>
+                <li>Ciclo de Vida del Desarrollo Software</li>
+                <li>Programación en Java, JavaScript, MySQL, Kotlin</li>
+                <li>Frameworks como Node.js, React</li>
+            </ul>
+        </div>
+    
+    <!-- Sección Sobre mí -->
+ 
+        <div class="card">
+            <p class="heading">Sobre mí</p>
+            <p><strong>Habilidades Blandas:</strong></p>
+            <ul>
+                <li>Líder de Equipo</li>
+                <li>Proactivo</li>
+                <li>Adaptable</li>
+                <li>Resolutivo</li>
+            </ul>
+            <p><strong>Intereses:</strong></p>
+            <ul>
+                <li>Tengo una gran pasión por las computadoras y los videojuegos, y a menudo paso mi tiempo libre explorando nuevos juegos y proyectos relacionados con la tecnología.</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+ 
+
+
+    <!-- Sección Proyectos -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre del Proyecto</th>
+                    <th>Descripción</th>
+                    <th>Tecnología utilizada</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Proyecto GIUP</td>
+                    <td>Sistema de gestión de cafetería en Java</td>
+                    <td>Java</td>
+                </tr>
+                <tr>
+                    <td>Proyecto BitacoraVirtual</td>
+                    <td>Sistema de Gestión de Bitacoras Virtuales</td>
+                    <td>JavaScript, Springboot, kotlin, Java</td>
+                </tr>
+                <tr>
+                    <td>Proyecto Web App</td>
+                    <td>Aplicación web de seguimiento de proyectos</td>
+                    <td>React, Node.js</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="gallery">
+        <h2>Galería de Proyectos</h2>
+        <div class="gallery">
+            <img src="./img/giup.png" alt="Proyecto 1">
+            <img src="./img/movil.png" alt="Proyecto 2">
+            <img src="./img/avena.png" alt="Proyecto 3">
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 Rubén | <a href="#home">Inicio</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rub%C3%A9n-g%C3%B3mez-hern%C3%A1ndez-b670181a5/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/RuAbogado" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+</html>
